@@ -14,6 +14,7 @@ public class ConvertVocal2Angka {
     
     tampilJudul(identitas);
     String kalimat = tampilInput();
+    String  convert = vocal2Angka(kalimat);
    
 }
     private static String tampilInput() {
@@ -37,6 +38,6 @@ public class ConvertVocal2Angka {
         
         return kalimat;
     }
-    
+ 
 }
 
